@@ -59,7 +59,7 @@ body {
 """, unsafe_allow_html=True)
 
 # ---------------- HEADER ----------------
-st.markdown('<div class="title"> YouTube AI Assistant   Note:- Past 5-7 minutes Video links only Other wise API gets exhausted</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">YouTube AI Assistant Note: Only use video links that are 5–7 minutes long; otherwise, the API quota may get exhausted.</div>', unsafe_allow_html=True)
 
 # ---------------- INPUT ----------------
 video_url = st.text_input("🔗 Enter YouTube URL")
